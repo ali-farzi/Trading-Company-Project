@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Trading Company Project</title>
+</head>
+<body id="Home" data-spy="scroll" data-bs-target="#nav-scroll">
+
+    <!--Header-->
+    <header class="shadow fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light me-auto, mb-2, mb-lg-0, me-2" id="nav-scroll">
+            <div class="container">
+                <a class="navbar-brand fs-3 text-dark" href="#Home">Lorem</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-dark" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#About">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nothing
+                        </a>
+                        <ul class="dropdown-menu text-dark">
+                            <li><a class="dropdown-item" href="#Comments">Comments</a></li>
+                            <li><a class="dropdown-item" href="#Home">Nothing</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">More</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </header>
+        
+        <!--Home-->
+        <section id="Home" class="py-5" style="height: 70vh;">
+            <div class="bgshow-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="mt-5 pt-5 display-2 h1-main">Lorem Trading Company</h1>
+                            <br>
+                            <p class="lead display-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Dolores omnis harum aliquam eligendi nihil officia!
+                                Blanditiis nesciunt iure sapiente qui doloremque dolor maxime cum necessitatibus porro.</p>
+                            <br>
+                            <a href="" class="btn btn-dark btn-lg text-white">More</a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Subcribe-->
+        <section class="text-white py-5 Email" style="height: 30vh;">
+            <div class="container">
+                <div class="row g-3 align-item-center">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Enter your Email">
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark btn-block">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Boxes-->
+        <section class="py-4" id="About">
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-md-3 cmain">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <i class="bi bi-car-front-fill text-dark mb-1 fonticon"></i>
+                                <p class="text-dark mb-2">
+                                    Lorem Trading Company is a private joint-stock company that has warehousing, clearance and import services.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cmain">
+                        <div class="card text-center bg-dark">
+                            <div class="card-body">
+                                <i class="bi bi-people-fill text-light mb-1 fonticon"></i>
+                                <p class="text-light mb-2">
+                                    Lorem Trading Company is a private joint-stock company that has warehousing, clearance and import services.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cmain">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <i class="bi bi-gear-wide-connected text-dark mb-1 fonticon"></i>
+                                <p class="text-dark mb-2">
+                                    Lorem Trading Company is a private joint-stock company that has warehousing, clearance and import services.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cmain">
+                        <div class="card text-center bg-dark">
+                            <div class="card-body">
+                                <i class="bi bi-cart text-light mb-1 fonticon"></i>
+                                <p class="text-light mb-2">
+                                    Lorem Trading Company is a private joint-stock company that has warehousing, clearance and import services.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!--About-->
+        <section class="py-5 text-center g-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-4">
+                            <h1 class="pb-3">Why Lorem Trading Company?</h1>
+                            <p class="lead pb-3">Lorem Trading Company is a private joint-stock clearance and import services.</p>
+                            <hr>
+                        </div>
+
+                        <!--Q/A-->
+                        <div id="accordion g-4">
+                            <div class="card bg-dark text-light mb-2">
+                                <div class="card-header">
+                                    <h4 class="mb-0">
+                                        <div href="#question-1" data-bs-toggle="collapse" data-parent="accordion" class="QA">
+                                            Why should we choose Lorem?
+                                        </div>
+                                    </h4>
+                                </div>
+
+                                <div class="collapse" id="question-1">
+                                    <div class="card-body">
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-light text-dark mb-2">
+                                <div class="card-header">
+                                    <h4 class="mb-0">
+                                        <div href="#question-2" data-bs-toggle="collapse" data-parent="accordion" class="QA">
+                                            Does Lorem have transportation?
+                                        </div>
+                                    </h4>
+                                </div>
+
+                                <div class="collapse" id="question-2">
+                                    <div class="card-body">
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-dark text-light mb-2">
+                                <div class="card-header">
+                                    <h4 class="mb-0">
+                                        <div href="#question-3" data-bs-toggle="collapse" data-parent="accordion" class="QA">
+                                            Is Lorem company a private company?
+                                        </div>
+                                    </h4>
+                                </div>
+
+                                <div class="collapse" id="question-3">
+                                    <div class="card-body">
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-light text-dark mb-2">
+                                <div class="card-header">
+                                    <h4 class="mb-0">
+                                        <div href="#question-4" data-bs-toggle="collapse" data-parent="accordion" class="QA">
+                                            Does Lorem company have branches?
+                                        </div>
+                                    </h4>
+                                </div>
+
+                                <div class="collapse" id="question-4">
+                                    <div class="card-body">
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                        Lorem Trading Company is a private joint-stock clearance and import services.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Comments-->
+        <section id="Comments" class="my-5 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="pb-3">Customers Comments</h2>
+                        <p class="lead pb-3">Comments of some customers of Lorem Trading Company who have used the services of Lorem Company.</p>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="team_2.jpg" class="img-fluid rounded-circle w-50 mb-2" alt="Loading">
+                                <h3>Alex Smith</h3>
+                                <h5 class="text-muted">Microsoft Company</h5>
+                                <p>We are very pleased that we have cooperated with Lorem company and we were able to use the company's services without worry and with ease.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-3">
+                                        <a href="https://instagram.com"><i class="bi bi-instagram ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://facebook.com"><i class="bi bi-facebook ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://twitter.com"><i class="bi bi-twitter ico text-dark"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="team_1.jpg" class="img-fluid rounded-circle w-50 mb-2" alt="Loading">
+                                <h3>Antony Barnes</h3>
+                                <h5 class="text-muted">Google Company</h5>
+                                <p>We are very pleased that we have cooperated with Lorem company and we were able to use the company's services without worry and with ease.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-3">
+                                        <a href="https://instagram.com"><i class="bi bi-instagram ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://facebook.com"><i class="bi bi-facebook ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://twitter.com"><i class="bi bi-twitter ico text-dark"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="team_3.jpg" class="img-fluid rounded-circle w-50 mb-2" alt="Loading">
+                                <h3>Stephan Edwards</h3>
+                                <h5 class="text-muted">Amazon Company</h5>
+                                <p>We are very pleased that we have cooperated with Lorem company and we were able to use the company's services without worry and with ease.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-3">
+                                        <a href="https://instagram.com"><i class="bi bi-instagram ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://facebook.com"><i class="bi bi-facebook ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://twitter.com"><i class="bi bi-twitter ico text-dark"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Max-R_Headshot-1.jpg" class="img-fluid rounded-circle w-50 mb-2" alt="Loading">
+                                <h3>Max Paul</h3>
+                                <h5 class="text-muted">Paypal Company</h5>
+                                <p>We are very pleased that we have cooperated with Lorem company and we were able to use the company's services without worry and with ease.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-3">
+                                        <a href="https://instagram.com"><i class="bi bi-instagram ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://facebook.com"><i class="bi bi-facebook ico text-dark"></i></a>
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="https://twitter.com"><i class="bi bi-twitter ico text-dark"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact-->
+        <section id="Contact" class="py-5 my-5 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="pb-3">Contact us form</h2>
+                        <p class="lead pb-3">You can use the form below to contact Lorem Trading Company.</p>
+                        <form>
+                            <div class="input-group input-group-lg mb-2">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+
+                            <div class="input-group input-group-lg mb-2">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+
+                            <div class="input-group input-group-lg mb-2">
+                                <textarea class="form-control" placeholder="Write your message" rows="3"></textarea>
+                            </div>
+                            <input type="submit" value="Send" class="btn btn-dark btn-lg btn-block">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="bg-light text-dark text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="footer">All material and intellectual rights of this site are reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>

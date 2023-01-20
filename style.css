@@ -1,0 +1,45 @@
+:root{
+    --color-black: #101820;
+    --color-yellow: #fee715;
+}
+body{
+    background-color: #3e658a;
+    margin-top: 75px;
+}
+header{
+    color: black;
+    background-color: #fff;
+}
+.button{
+    color: #101820;
+}
+.navbar-brand{
+    font-weight: 500;
+    color: black;
+}
+.h1-main{
+    font-weight: 500;
+}
+.lead{
+    font-weight: 400;
+    font-size: 20px;
+}
+.fonticon{
+    font-size: 30px;
+}
+.QA{
+    cursor: pointer;
+}
+.card-body{
+    font-weight: 400;
+    font-size: 17px;
+}
+.cmain{
+    margin-bottom: 20px;
+}
+.ico{
+    font-size: 21px;
+}
+.footer{
+    font-size: 16px;
+}
