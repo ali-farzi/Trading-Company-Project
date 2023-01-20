@@ -1,21 +1,23 @@
 :root{
     --color-black: #101820;
     --color-yellow: #fee715;
+    --color-white: #fff;
+    --color-bg: #3e658a;
 }
 body{
-    background-color: #3e658a;
+    background-color: var(--color-bg);
     margin-top: 75px;
 }
 header{
     color: black;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 .button{
-    color: #101820;
+    color: var(--color-black);
 }
 .navbar-brand{
     font-weight: 500;
-    color: black;
+    color: var(--color-black);
 }
 .h1-main{
     font-weight: 500;
